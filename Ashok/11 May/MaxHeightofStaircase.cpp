@@ -9,15 +9,12 @@ using namespace std;
 
 int MaxHStairCase(int b){
     int s = 0;
-    while (b != 0)
-    {
-        if (s + 1 <= b)
-        {
+    while (b != 0){
+        if (s + 1 <= b){
             s++;
             b = b - s;
         }
-        else
-        {
+        else{
             break;
         }
 
