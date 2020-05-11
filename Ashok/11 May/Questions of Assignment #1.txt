@@ -1,0 +1,73 @@
+Question 1:
+Single Number
+
+Given an array of integers, every element appears twice except for one. Find that single one. 
+Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+-------------------
+Question 2:
+
+Given an integer array A of N integers, find the pair of integers in the array which have minimum XOR value. 
+Report the minimum XOR value. You have an array A[] with N elements.
+
+We have 2 types of operation available on this
+array :
+. We can split a element B into 2 elements C and D such that B = C + D.
+. We can merge 2 elements P and Q as one element R such that R = P^Q i.e XOR of P
+and Q. You have to determine whether it is possible to make array A[] containing only 1
+element 0 after several splits and/or merge?
+
+Input : The first argument is an array of size N containing integer values Ai. (1<=N<=100000) (1<=Ai<=10^6)
+
+Output : Return "Yes" if it is possible otherwise return "No". 
+
+Examples
+
+Input : 9 17
+
+Output : Yes
+
+-------------------
+Question 3:
+
+Maximum height of the staircase
+
+Given an integer A representing the square blocks. The height of each square block is 1. The task is to create a staircase of max height 
+using these blocks. The first stair would require only one block, the second stair would require two blocks and so on. 
+Find and return the maximum height of the staircase.
+
+-------------------
+Question 4:
+
+Count of paths in a grid
+
+Given an integer A, find and return the number of paths in a grid of size (A x A) that starts from (1, 1) and reaches (A, A) 
+without crossing the major diagonal. 
+Since the result can be large, return the result modulo (10^9 + 7). 
+
+NOTE: The major diagonal of a matrix A is the collection of entries A[i][j] where i == j
+
+Input Format : The only argument given is integer A. 
+
+Output Format : Return the number of paths modulo (10^9 + 7). 
+
+Constraints : 1 <= A <= 10^6
+
+For Example
+
+Input 1 : A = 2
+Output 1 : 1
+
+Input 2: A = 5
+Output 2: 14
+
+-------------------
+Question 5:
+
+Square Root of Integer
+
+Given an integar A. Compute and return the square root of A.
+
+If A is not a perfect square, return floor(sqrt(A)). 
+
+DO NOT USE SQRT FUNCTION FROM STANDARD LIBRARY
